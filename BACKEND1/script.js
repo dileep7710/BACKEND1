@@ -1,12 +1,4 @@
-// let n = 5;
+import {sum, PI} from "./math.js";
+import { generate } from "random-words"
 
-// for(let i=0; i<n; i++){
-//     console.log("hello,",i);
-// }
-// console.log("bye!");
-
-// console.log(process.argv);
-
-const info = require("./fruits");
-
-console.log(info);
+console.log(generate());
